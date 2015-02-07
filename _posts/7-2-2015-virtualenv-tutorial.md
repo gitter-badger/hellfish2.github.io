@@ -2,10 +2,9 @@
 layout: post
 title: Tutorial Virtualenv
 ---
+![_config.yml]({{ site.baseurl }}/images/python.jpg)
 
 Cuando se está desarrollando software con Python, es común utilizar diferentes versiones de una mismo paquete. Por ejemplo, imaginemos que se está desarrollando un juego con la versión 1.2 de Pygame y mientras eso pasa, se comienza el desarrollo de un nuevo juego que necesita las nuevas características presentes en la versión 1.3 del mismo paquete.
-
-![_config.yml]({{ site.baseurl }}/images/python.jpg)
 
 En este punto ya se tiene instalada una versión del paquete en el sistema que no puede ser eliminada en favor de la nueva versión. Así que el problema a solucionar radica en como poder instalar las dos versiones de la misma librería con el fin de poder desarrollar ambos proyectos de forma simultánea.
 
