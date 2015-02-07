@@ -12,7 +12,7 @@ La solución consiste en crear virtualenvs o entornos virtuales. En palabras sim
 
 Para poder utilizar este simple pero poderoso concepto es necesario instalar una utilidad que permita gestionar la creación y utilización de dichos entornos virtuales llamada virtualenv.
 
-Cómo instalar la utilidad virtualenv
+### Cómo instalar la utilidad virtualenv
 
 Se puede instalar la utilidad virtualenv utilizando el gestor de paquetes de las distribuciones Linux:
 
