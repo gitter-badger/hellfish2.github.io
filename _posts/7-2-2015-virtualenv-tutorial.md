@@ -40,6 +40,7 @@ $ virtualenv mi_proyecto
 ~~~
 
 con la siguiente estructura:
+
 ~~~
 mi_proyecto/
 bin/
