@@ -18,61 +18,72 @@ Se puede instalar la utilidad virtualenv utilizando el gestor de paquetes de las
 
 Los comandos mostrados en este tutorial aplican para Python 2.x.
 
-## Debian, Ubuntu
+## Debian
 ~~~
 $ sudo apt-get install python-virtualenv
 ~~~
 
 También es posible instalar virtualenv utilizando pip:
 
-`# Linux`
-`$ sudo pip install virtualenv`
+## Linux
+~~~
+$ sudo pip install virtualenv
+~~~
 
-Cómo crear un Python virtualenv
+### Cómo crear un Python virtualenv
 
 Para crear un virtualenv simplemente se ejecuta el siguiente comando desde una terminal:
 
-`# Linux`
-`$ virtualenv mi_proyecto`
+## Linux`
+~~~
+$ virtualenv mi_proyecto
+~~~
 
 con la siguiente estructura:
-
-`mi_proyecto/`
-`bin/`
-`include/`
-`lib/`
+~~~
+mi_proyecto/
+bin/
+include/
+lib/
+~~~
 
 En el directorio bin/ se encuentran los ejecutables necesarios para interactuar con el virtualenv. En include/ se encuentran algunos archivos de cabecera de C (archivos .h) necesarios para compilar algunas librerías de Python. Y finalmente en lib/ se encuentra una copia de Python así como un directorio llamado site-packages/ en el cual se aloja el código fuente de los paquetes Python instalados en el virtualenv.
 
-Cómo activar un Python virtualenv
+### Cómo activar un Python virtualenv
 
 Para activar un virtualenv o entorno virtual, se procesa el archivo bin/activate que se encuentra en la carpeta que se ha creado al ejecutar la utilidad virtualenv:
 
-`$ cd mi_proyecto`
-`$ source bin/activate`
-`(mi_proyecto)$`
+~~~
+$ cd mi_proyecto
+$ source bin/activate
+(mi_proyecto)$
+~~~
 
 El prompt de la terminal indica que el virtualenv está activado. De esta manera ya es posible utilizar los paquetes Python instalados así como instalar paquetes adicionales.
 
-Cómo desactivar un Python virtualenv
+### Cómo desactivar un Python virtualenv
 
 Para desactivar un virtualenv porque se necesita trabajar en otro diferente, por ejemplo, se ejecuta el comando deactivate. No es necesario ir a la carpeta del virtualenv para realizar la operación:
 
-`(mi_proyecto)$ deactivate`
-`$`
+~~~
+(mi_proyecto)$ deactivate
+$
+~~~
 
 El prompt de la terminal indica que el virtualenv ha sido desactivado con éxito.
 
-Cómo instalar paquetes en un Python virtualenv
+### Cómo instalar paquetes en un Python virtualenv
 
 Después de activarlo, lo único que resta es instalar los paquetes que sean necesarios usando el ejecutable pip que viene por defecto en cada virtualenv creado.
 
 Por ejemplo, si se desea instalar django, se ejecuta el siguiente comando:
 
-`(mi_proyecto)$ pip install django`
+~~~
+(mi_proyecto)$ pip install django
+~~~
 
 Notese que el prompt de la terminal indica que el virtualenv mi_proyecto ya está activado.
 
-¿En qué directorio ubico el código fuente de mi proyecto?
+### ¿En qué directorio ubico el código fuente de mi proyecto?
 
 La ubicación del código fuente del proyecto en el que se está trabajando no es importante. Puede ser colocado inclusive dentro del directorio del virtualenv. Una vez que el virtualenv está activado, todas las librerías de Python que instalen solo podrán ser usadas al activar ese virtualenv específico.
