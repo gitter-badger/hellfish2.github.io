@@ -19,7 +19,7 @@ Se puede instalar la utilidad virtualenv utilizando el gestor de paquetes de las
 Los comandos mostrados en este tutorial aplican para Python 2.x.
 
 ## Debian, Ubuntu
-:::bash
+:::python
 $ sudo apt-get install python-virtualenv
 
 También es posible instalar virtualenv utilizando pip:
