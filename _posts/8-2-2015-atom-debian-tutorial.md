@@ -4,7 +4,7 @@ title: Cómo instalar Atom Editor en debian linux
 ---
 ![_config.yml]({{ site.baseurl }}/images/atom.png)
 
-Atom Editor es el nuevo editor de texto, desarrollado por Github. Este editor está escrito con tecnologías como Node.js, CoffeeScript y LESS, es muy sencillo de usar, muy personalizable y ofrece varias herramientas para el desarrollo.
+->Atom Editor es el nuevo editor de texto, desarrollado por Github. Este editor está escrito con tecnologías como Node.js, CoffeeScript y LESS, es muy sencillo de usar, muy personalizable y ofrece varias herramientas para el desarrollo.
 
 La instalación para Linux es diferente con respecto a Windows o MAC ya que en estas dos ultimas plataformas es un paquete listo para instalar, mientras tanto en Linux – Debian debemos “construir” el editor en muy pocos pasos.
 
@@ -83,4 +83,4 @@ En la consola ejecutamos:
 # atom
 ~~~
 
-Con esto ya tenemos instalado “Atom” en nuestro linux, donde lo podemos ejecutar por consola o ejecutando como aplicación (Alt + F2).
+Con esto ya tenemos instalado “Atom” en nuestro linux, donde lo podemos ejecutar por consola o ejecutando como aplicación (Alt + F2).<-
