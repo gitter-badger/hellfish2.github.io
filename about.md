@@ -15,7 +15,7 @@ Tambien soy Lider de Proyectos en Desarrollo de equipos multidisciplinarios. Mis
 
 En definitiva un profesional con mas de 8 años de experiencia en el area, con deseos de ser retado dia a dia en el ambito laboral y de crecimiento intelectual.
 
-Puedes <a href="http://hellfish2..github.io/pdf/Curriculo2015.pdf/" target="_blank">descargar mi curriculo aqui</a>
+Puedes <a href="http://hellfish2.github.io/pdf/Curriculo2015.pdf/" target="_blank">descargar mi curriculo aqui</a>
 
 ### Contactame
 
