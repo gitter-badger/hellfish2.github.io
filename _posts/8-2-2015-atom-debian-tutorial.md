@@ -48,6 +48,7 @@ Instalamos el keyring:
 ~~~
 
 Setup python:
+
 ~~~
 # sudo npm config set python /usr/bin/python2 -g
 ~~~
@@ -70,7 +71,7 @@ Con esto empezará a ejecutar tareas que será nuestro editor de texto “Atom�
 Terminada la compilación, ejecutamos:
 
 ~~~
-$ sudo script/grunt install
+# sudo script/grunt install
 ~~~
 
 Con esto ya tenemos el editor de texto “Atom” instalado
