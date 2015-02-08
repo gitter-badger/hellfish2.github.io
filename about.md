@@ -7,6 +7,7 @@ permalink: /about/
 Hola, me llamo Carlos Malavé soy Venezolano de corazon, con ingredientes de Web + UX/UI + Frontend + Android Developer, con partes iguales de interes en Diseño, Desarrollo, Tecnologias Libres, Bussiness Intelligence. Miembro de la comunidad de Plone, SWL-CANTV, FOSS...
 
 ### Mas información
+=======
 
 Desarrollo sitios web los cuales son muy bien ejecutados, orientados a la usabilidad de usuario, con la mejor base en estandares de desarrollo y accesibilidad usados en la actualidad.
 
@@ -14,11 +15,7 @@ Tambien soy Lider de Proyectos en Desarrollo de equipos multidisciplinarios. Mis
 
 En definitiva un profesional con mas de 8 años de experiencia en el area, con deseos de ser retado dia a dia en el ambito laboral y de crecimiento intelectual.
 
-Puedes [descargar mi curriculo aqui](http://hellfish2.github.io/pdf/Curriculo2015.pdf)
-
-
-
-
+Puedes [descargar mi curriculo aqui](target:_blank; http://hellfish2.github.io/pdf/Curriculo2015.pdf)
 
 ### Contactame
 
