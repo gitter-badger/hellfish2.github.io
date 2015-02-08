@@ -4,7 +4,16 @@ title: Proyectos
 permalink: /projects/
 ---
 
-Hola, me llamo Carlos Malavé soy Venezolano de corazon, con ingredientes de Web + UX/UI + Frontend + Android Developer, con partes iguales de interes en Diseño, Desarrollo, Tecnologias Libres, Bussiness Intelligence. Miembro de la comunidad de Plone, SWL-CANTV, FOSS...
+Aqui encontraran una lista de proyectos, los cuales ando involucrado trabajando, implementando y mejorando dia a dia.
 
-### Mas información
+### Tecnologías usadas
+=======
+
+
+
+### Proyectos en curso
+=======
+
+
+### Proyectos realizados
 =======
