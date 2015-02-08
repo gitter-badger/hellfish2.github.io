@@ -14,7 +14,10 @@ Tambien soy Lider de Proyectos en Desarrollo de equipos multidisciplinarios. Mis
 
 En definitiva un profesional con mas de 8 años de experiencia en el area, con deseos de ser retado dia a dia en el ambito laboral y de crecimiento intelectual.
 
-Puedes descargar mi curriculo ![_config.yml]({{ site.baseurl }}/pdf/curriculo_2015.pdf)
+Puedes descargar mi curriculo <a><i class="svg-icon pdf">![_config.yml]({{ site.baseurl }}/pdf/curriculo_2015.pdf)</i></a>
+
+
+
 
 
 ### Contactame
