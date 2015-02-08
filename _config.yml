@@ -30,7 +30,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: hellfish2
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  pdf: /pdf/Curriculo2015.pdf
+  pdf: # PDF BETA
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus:
