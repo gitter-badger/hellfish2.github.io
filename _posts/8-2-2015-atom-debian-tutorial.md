@@ -9,18 +9,10 @@ Atom Editor es el nuevo editor de texto, desarrollado por Github. Este editor es
 La instalación para Linux es diferente con respecto a Windows o MAC ya que en estas dos ultimas plataformas es un paquete listo para instalar, mientras tanto en Linux – Debian debemos “construir” el editor en muy pocos pasos.
 
 #### Lo que necesitamos antes de instalar:
-~~~
-Git
-~~~
-~~~
-Node.js v0.10.x
-~~~
-~~~
-npm v1.4.x
-~~~
-~~~
-gnome keyring dev
-~~~
+* Git
+* Node.js v0.10.x
+* npm v1.4.x
+* gnome keyring dev
 
 #### Comprobación de paquetes:
 
@@ -34,20 +26,14 @@ Abrimos nuestro terminal o consola y escribimos lo siguiente:
 
 ~~~
 # node -v
-# v0.10.31
-~~~
-~~~
 # npm -v
-# 1.4.23
 ~~~
 
 con esto nos dará la versión de Node que debe ser la version +0.10 (v0.10.x) y la de NPM (npm v1.4.x). En caso que ambos estén desactualizados tendremos que escribir lo siguiente:
 
 ~~~
 # sudo npm cache clean -f
-
 # sudo npm install -g n
-
 # sudo n stable
 ~~~
 
@@ -70,7 +56,6 @@ Nos dirigimos a una carpeta donde descargaremos el repositorio de Atom mediante 
 
 ~~~
 # git clone https://github.com/atom/atom
-
 # cd atom
 ~~~
 
