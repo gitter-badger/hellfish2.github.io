@@ -3,10 +3,9 @@ layout: default
 ---
 
 <article class="post">
-  <h3>
+  <h4>
     {{ page.title }}
-    <div class="float-twitter"><a href="https://twitter.com/share" class="twitter-share-button float-twitter" data-via="hellfish2">Tweet</a></div>
-  </h3>
+  </h4>
 
   <div class="entry">
     {{ content }}
@@ -18,5 +17,6 @@ layout: default
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
+<div class="float-twitter"><a href="https://twitter.com/share" class="twitter-share-button float-twitter" data-via="hellfish2">Tweet</a></div>
 <!-- Put this just before the closing body tag -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
