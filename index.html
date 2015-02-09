@@ -8,9 +8,9 @@ layout: default
 
       <h4>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <div class="float-twitter"><a href="https://twitter.com/share" class="twitter-share-button float-twitter" data-via="hellfish2">Tweet</a></div>
+
       </h4>
-      
+
       <div class="entry">
         {{ post.content | truncatewords:60}}
       </div>
@@ -26,4 +26,3 @@ layout: default
 <script src="{{ site.baseurl }}docs/assets/js/application.js"></script>
 
 <!-- Put this just before the closing body tag -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
