@@ -301,24 +301,6 @@ footer {
 splash
 ---------------*/
 
-body {
-  position: relative;
-  overflow: hidden;
-  /*  background: #111111 url(http://semantic-ui.com/images/bg-sky.jpg);*/
-  background-size: cover;
-  text-align: center;
-  padding: 0em;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 0px;
-  border-bottom: none;
-  background-color: #00B5AD;
-  background-image: -webkit-radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
-  background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
-}
-body .grid {
-  margin: 0em;
-  padding: 15rem 0em;
-}
 .following.bar,
 body {
   -webkit-transform-style: preserve-3d;
@@ -749,15 +731,7 @@ body.stopped:after {
 }
 
 
-body.segment .typed-cursor {
-  position: relative;
-  top: -0.05em;
-  left: -0.25em;
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
+
 @keyframes blink {
   0% { opacity:1; }
   50% { opacity:0; }
@@ -778,48 +752,9 @@ body.segment .typed-cursor {
   box-shadow: none;
 }
 
-body.segment h1 {
-  font-size: 3em;
-  color: rgba(255, 255, 255, 0.5);
-  line-height: 1.2;
-  margin: 0px 0px 0px;
-  padding-bottom: 0px;
-  -moz-perspective: 500px;
-  -webkit-perspective: 500px;
-  perspective: 500px;
-  -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-body.segment h1 > .library {
-  visibility: hidden;
-  display: block;
-  font-size: 1.75em;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-body.segment h1 b {
-  display: inline-block;
-  font-weight: 300;
-  color: #FFFFFF;
-}
-body.segment h1 .text {
-  display: inline-block;
-  font-weight: 300;
-  margin-left: -0.4em;
-}
-body h2 {
-  font-weight: normal;
-  margin: 0px 0 16px 0px;
-  font-size: 1.75em;
-  border-bottom: none;
-  line-height: 1;
-}
-body p {
-  font-size: 1.5em;
-  margin: 1em 0em 1.5em;
-  padding: 0px;
-}
+
+
+
 .ui.header {
   font-weight: normal;
 }
