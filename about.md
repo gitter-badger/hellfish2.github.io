@@ -4,7 +4,8 @@ title: Acerca de mi
 permalink: /about/
 ---
 
-Hola, me llamo Carlos Malavé soy Venezolano de corazón, con ingredientes de Web + UX/UI + Frontend + Android Developer, con partes iguales de interés en Diseño, Desarrollo, Tecnologías Libres, Bussiness Intelligence BI/BW. Miembro de la comunidad de Plone, SWL-CANTV, FLOSS...
+Hola, me llamo Carlos Malavé soy Venezolano de corazón, con ingredientes de Web + UX/UI + Frontend + Android Developer, con partes iguales de interés en Diseño, Desarrollo, Tecnologías Libres, Bussiness Intelligence BI/BW.
+Miembro de la comunidad de Plone, SWL-CANTV, FLOSS...
 
 Ingeniero en sistemas (UPTM - Merida) + TSU en informatica (IUTAV - Caracas)
 
