@@ -39,14 +39,32 @@
 
             <nav>
               <a class="btn btn-primary" href="{{ site.baseurl }}/">Blog</a>
-              <a href="{{ site.baseurl }}/projectsU/">Proyectos</a>
-              <a href="{{ site.baseurl }}/about/">Acerca de mi</a>
+              <a class="btn" href="{{ site.baseurl }}/projectsU/">Proyectos</a>
+              <a class="btn" href="{{ site.baseurl }}/about/">Acerca de mi</a>
             </nav>
           </header>
         </div>
       </div>
 
-
+      <nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+          <button data-target="#bs-example-navbar-collapse-2" data-toggle="collapse" class="navbar-toggle" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Flat UI</a>
+        </div>
+        <div id="bs-example-navbar-collapse-2" class="collapse navbar-collapse">
+          <form role="search" class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" placeholder="Search" class="form-control">
+            </div>
+            <button class="btn btn-default" type="submit">Submit</button>
+          </form>
+        </div>
+      </nav>
 
 
 
