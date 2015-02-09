@@ -37,6 +37,27 @@
               <p class="site-description">{{ site.description }}</p>
             </div>
 
+            <nav role="navigation" class="navbar navbar-default">
+              <div class="navbar-header">
+                <button data-target="#bs-example-navbar-collapse-2" data-toggle="collapse" class="navbar-toggle" type="button">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Flat UI</a>
+              </div>
+              <div id="bs-example-navbar-collapse-2" class="collapse navbar-collapse">
+                <form role="search" class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                  </div>
+                  <button class="btn btn-default" type="submit">Submit</button>
+                </form>
+              </div>
+            </nav>
+
+
             <nav>
               <a class="btn btn-primary" href="{{ site.baseurl }}/">Blog</a>
               <a class="btn btn-default" href="{{ site.baseurl }}/projectsU/">Proyectos</a>
