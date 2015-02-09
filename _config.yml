@@ -38,7 +38,7 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-53211355-1
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://hellfish2.github.io or http://www.hellfish2.io)
 # Used for Sitemap.xml and your RSS feed
 url: http://hellfish2.github.io
 
